@@ -3,7 +3,7 @@ import os
 #from bottle import route, run
 from bottle import route, run, static_file, request
 
-
+# file path set in json
 config_file = open( 'config.json' )
 config_data = json.load( config_file )
 pth_xml     = config_data["paths"]["xml"]
